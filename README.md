@@ -7,3 +7,25 @@
 
 ### Python Tutorial on W3-Schools
 [Python Tutorial](https://www.w3schools.com/python/default.asp)
+
+### Python inheritance (Vererbung) on W3-Schools
+[Python Inheritance](https://www.w3schools.com/python/python_inheritance.asp)
+
+### Python Polymorphism on W3-Schools
+[Python Polymorphism](https://www.w3schools.com/python/python_polymorphism.asp)
+
+### Python docstrings in classes
+Klassen sollten gur dokumentiert werden (gilt im Übrigen für jeden Code). Python unterstützt dies durch die Verwendung von Docstrings. Jede Klasse, Funktion oder Methodenkopfzeile kann eine standardmäßige Python-Zeichenkette als erste Zeile nach der Definition (die Zeile, die mit einem Doppelpunkt endet) haben. Diese Zeile sollte genauso eingerückt sein wie der nachfolgende Code.
+Bsp.:
+```python
+class Classname():
+    "Das ist ein Docstring als Beschreibung der Klasse"
+def __init__(self, argument):
+    """Das ist ein Mehrzeilenkommentar
+       als Beschreibung der __init__-Methode"""
+def method_name(self):
+    """Das ist noch ein Mehrzeilenkommentar
+       für eine weiter Methode"""
+```
+      
+Ein Docstring sollte klar und prägnant den Zweck der Klasse oder Methode zusammenfassen, die sie beschreibt. Sie sollte alle Parameter erklären, deren Verwendung nicht sofort offensichtlich ist, und ist auch ein guter Ort, um kurze Beispiele zur Nutzung der API (Application Programming Interface) einzufügen.
