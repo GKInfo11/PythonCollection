@@ -19,7 +19,7 @@ Klassen sollten gur dokumentiert werden (gilt im Übrigen für jeden Code). Pyth
 Bsp.:
 ```python
 class Classname():
-    "Das ist ein Docstring als Beschreibung der Klasse"
+    "Das ist ein einzeliger Docstring als Beschreibung der Klasse"
     def __init__(self, argument):
         """Das ist ein Mehrzeilenkommentar
            als Beschreibung der __init__-Methode
