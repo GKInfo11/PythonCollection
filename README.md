@@ -27,7 +27,7 @@ def __init__(self, argument):
     self.attribut = argument    
 def method_name(self):
     """Das ist noch ein Mehrzeilenkommentar
-       für eine weiter Methode
+       für eine weitere Methode
     """
     pass
 ```
