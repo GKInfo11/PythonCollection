@@ -22,11 +22,13 @@ class Classname():
     "Das ist ein Docstring als Beschreibung der Klasse"
 def __init__(self, argument):
     """Das ist ein Mehrzeilenkommentar
-       als Beschreibung der __init__-Methode"""
+       als Beschreibung der __init__-Methode
+    """
     self.attribut = argument    
 def method_name(self):
     """Das ist noch ein Mehrzeilenkommentar
-       für eine weiter Methode"""
+       für eine weiter Methode
+    """
     pass
 ```
       
