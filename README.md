@@ -20,16 +20,16 @@ Bsp.:
 ```python
 class Classname():
     "Das ist ein Docstring als Beschreibung der Klasse"
-def __init__(self, argument):
-    """Das ist ein Mehrzeilenkommentar
-       als Beschreibung der __init__-Methode
-    """
-    self.attribut = argument    
-def method_name(self):
-    """Das ist noch ein Mehrzeilenkommentar
-       für eine weitere Methode
-    """
-    pass
+    def __init__(self, argument):
+        """Das ist ein Mehrzeilenkommentar
+           als Beschreibung der __init__-Methode
+        """
+        self.attribut = argument    
+    def method_name(self):
+        """Das ist noch ein Mehrzeilenkommentar
+           für eine weitere Methode
+        """
+        pass
 ```
       
 Ein Docstring sollte klar und prägnant den Zweck der Klasse oder Methode zusammenfassen, die sie beschreibt. Sie sollte alle Parameter erklären, deren Verwendung nicht sofort offensichtlich ist, und ist auch ein guter Ort, um kurze Beispiele zur Nutzung der API (Application Programming Interface) einzufügen.
