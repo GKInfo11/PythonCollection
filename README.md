@@ -35,3 +35,21 @@ class Classname():
 ```
       
 Ein Docstring sollte klar und prägnant den Zweck der Klasse oder Methode zusammenfassen, die sie beschreibt. Sie sollte alle Parameter erklären, deren Verwendung nicht sofort offensichtlich ist, und ist auch ein guter Ort, um kurze Beispiele zur Nutzung der API (Application Programming Interface) einzufügen.
+
+### `__name__` (dunder name variable)
+`__name__` ist eine spezielle Variable in Python. Das Besondere daran ist, dass Python ihr einen anderen Wert zuweist, je nachdem, wie das enthaltende Skript ausgeführt wird.
+
+Wenn du ein Modul importierst, führt Python die Datei aus, die dem Modul zugeordnet ist.
+
+Häufig möchtest du ein Skript schreiben, das direkt ausgeführt oder als Modul importiert werden kann. Die Variable ermöglicht es dir, dies zu tun.
+
+Wenn du das Skript direkt ausfühst, legt Python die Variable auf `__name__ = "__main__"` fest.
+
+Wenn du jedoch eine Datei als Modul importierst, legt Python den Modulnamen auf die Variable fest. Das ist meist der Name der Datei ohne die .py Endung. Es ist daher `__name__ = Modulname`
+
+Der Ausdruck
+```python
+if __name__ == "__main__":
+    ...
+```
+kann daher verwendet werden, um den if-Block nur dann auszuführen, wenn das Programm als Skript ausgeführt wird.
