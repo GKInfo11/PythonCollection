@@ -45,7 +45,7 @@ Häufig möchtest du ein Skript schreiben, das direkt ausgeführt oder als Modul
 
 Wenn du das Skript direkt ausführst, legt Python die Variable auf `__name__ = "__main__"` fest.
 
-Wenn du jedoch eine Datei als Modul importierst, legt Python den Modulnamen auf die Variable fest. Das ist meist der Name der Datei ohne die .py Endung. Es ist daher `__name__ = Modulname`
+Wenn du jedoch eine Datei als Modul importierst, legt Python den Modulnamen auf die Variable auf den Modulnamen fest. Das ist meist der Name der Datei ohne die .py Endung. Es ist daher `__name__ = Modulname`
 
 Der Ausdruck
 ```python
